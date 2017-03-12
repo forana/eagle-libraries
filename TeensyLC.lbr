@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -142,79 +142,79 @@
 </packages>
 <symbols>
 <symbol name="TEENSY_LC_SIDES">
-<pin name="0/RX1/MOSI1" x="10.16" y="30.48" length="short" rot="R180"/>
-<pin name="1/TX1/MISO1" x="10.16" y="27.94" length="short" rot="R180"/>
-<pin name="2" x="10.16" y="25.4" length="short" rot="R180"/>
-<pin name="3" x="10.16" y="22.86" length="short" rot="R180"/>
-<pin name="4" x="10.16" y="20.32" length="short" rot="R180"/>
-<pin name="5" x="10.16" y="17.78" length="short" rot="R180"/>
-<pin name="6/CS1" x="10.16" y="15.24" length="short" rot="R180"/>
-<pin name="7/RX3" x="10.16" y="12.7" length="short" rot="R180"/>
-<pin name="8/TX3" x="10.16" y="10.16" length="short" rot="R180"/>
-<pin name="9/RX2" x="10.16" y="7.62" length="short" rot="R180"/>
-<pin name="10/TX2/CS0" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="11/MOSI0" x="10.16" y="2.54" length="short" rot="R180"/>
-<pin name="12/MISO0" x="10.16" y="0" length="short" rot="R180"/>
-<pin name="13/LED/SCK0" x="10.16" y="-2.54" length="short" rot="R180"/>
-<pin name="14/A0" x="10.16" y="-5.08" length="short" rot="R180"/>
-<pin name="15/A1" x="10.16" y="-7.62" length="short" rot="R180"/>
-<pin name="16/A2" x="10.16" y="-10.16" length="short" rot="R180"/>
-<pin name="17/A3" x="10.16" y="-12.7" length="short" rot="R180"/>
-<pin name="18/A4/SDA0" x="10.16" y="-15.24" length="short" rot="R180"/>
-<pin name="19/A5/SCL0" x="10.16" y="-17.78" length="short" rot="R180"/>
-<pin name="20/A6/SCK1" x="10.16" y="-20.32" length="short" rot="R180"/>
-<pin name="21/A7" x="10.16" y="-22.86" length="short" rot="R180"/>
-<pin name="22/A8/SCL1" x="10.16" y="-25.4" length="short" rot="R180"/>
-<pin name="23/A9/SDA1" x="10.16" y="-27.94" length="short" rot="R180"/>
-<pin name="3.3V" x="-10.16" y="25.4" length="short"/>
-<pin name="VIN" x="-10.16" y="22.86" length="short"/>
-<pin name="GND" x="-10.16" y="20.32" length="short"/>
+<pin name="0/RX1/MOSI1" x="10.16" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="1/TX1/MISO1" x="10.16" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="2" x="10.16" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="3" x="10.16" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="4" x="10.16" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="5" x="10.16" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="6/CS1" x="10.16" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="7/RX3" x="10.16" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="8/TX3" x="10.16" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="9/RX2" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="10/TX2/CS0" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="11/MOSI0" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="12/MISO0" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="13/LED/SCK0" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="14/A0" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15/A1" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16/A2" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="17/A3" x="10.16" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="18/A4/SDA0" x="10.16" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="19/A5/SCL0" x="10.16" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="20/A6/SCK1" x="10.16" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="21/A7" x="10.16" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="22/A8/SCL1" x="10.16" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="23/A9/SDA1" x="10.16" y="-27.94" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V" x="-10.16" y="25.4" visible="pin" length="short"/>
+<pin name="VIN" x="-10.16" y="22.86" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="20.32" visible="pin" length="short"/>
 <wire x1="-10.16" y1="33.02" x2="10.16" y2="33.02" width="0.254" layer="94"/>
 <wire x1="10.16" y1="33.02" x2="10.16" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-30.48" x2="-10.16" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-30.48" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
-<text x="-7.62" y="-33.02" size="1.27" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-33.02" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="TEENSY_LC">
-<pin name="0/RX1/MOSI1" x="12.7" y="30.48" length="short" rot="R180"/>
-<pin name="1/TX1/MISO1" x="12.7" y="27.94" length="short" rot="R180"/>
-<pin name="2" x="12.7" y="25.4" length="short" rot="R180"/>
-<pin name="3" x="12.7" y="22.86" length="short" rot="R180"/>
-<pin name="4" x="12.7" y="20.32" length="short" rot="R180"/>
-<pin name="5" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="6/CS1" x="12.7" y="15.24" length="short" rot="R180"/>
-<pin name="7/RX3" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="8/TX3" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="9/RX2" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="10/TX2/CS0" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="11/MOSI0" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="12/MISO0" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="13/LED/SCK0" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="14/A0" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="15/A1" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="16/A2" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="17/A3" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="18/A4/SDA0" x="12.7" y="-15.24" length="short" rot="R180"/>
-<pin name="19/A5/SCL0" x="12.7" y="-17.78" length="short" rot="R180"/>
-<pin name="20/A6/SCK1" x="12.7" y="-20.32" length="short" rot="R180"/>
-<pin name="21/A7" x="12.7" y="-22.86" length="short" rot="R180"/>
-<pin name="22/A8/SCL1" x="12.7" y="-25.4" length="short" rot="R180"/>
-<pin name="23/A9/SDA1" x="12.7" y="-27.94" length="short" rot="R180"/>
-<pin name="3.3V" x="-12.7" y="25.4" length="short"/>
-<pin name="VIN" x="-12.7" y="22.86" length="short"/>
-<pin name="GND" x="-12.7" y="20.32" length="short"/>
+<pin name="0/RX1/MOSI1" x="12.7" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="1/TX1/MISO1" x="12.7" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="2" x="12.7" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="3" x="12.7" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="4" x="12.7" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="5" x="12.7" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="6/CS1" x="12.7" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="7/RX3" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="8/TX3" x="12.7" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="9/RX2" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="10/TX2/CS0" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="11/MOSI0" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="12/MISO0" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="13/LED/SCK0" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="14/A0" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15/A1" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16/A2" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="17/A3" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="18/A4/SDA0" x="12.7" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="19/A5/SCL0" x="12.7" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="20/A6/SCK1" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="21/A7" x="12.7" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="22/A8/SCL1" x="12.7" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="23/A9/SDA1" x="12.7" y="-27.94" visible="pin" length="short" rot="R180"/>
+<pin name="3.3V" x="-12.7" y="25.4" visible="pin" length="short"/>
+<pin name="VIN" x="-12.7" y="22.86" visible="pin" length="short"/>
+<pin name="GND" x="-12.7" y="20.32" visible="pin" length="short"/>
 <wire x1="-12.7" y1="33.02" x2="12.7" y2="33.02" width="0.254" layer="94"/>
 <wire x1="12.7" y1="33.02" x2="12.7" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-40.64" x2="-12.7" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-40.64" x2="-12.7" y2="33.02" width="0.254" layer="94"/>
-<text x="-10.16" y="-43.18" size="1.27" layer="94">&gt;NAME</text>
-<pin name="24/A10" x="12.7" y="-30.48" length="short" rot="R180"/>
-<pin name="25/A11" x="12.7" y="-33.02" length="short" rot="R180"/>
-<pin name="26/A12/DAC" x="12.7" y="-35.56" length="short" rot="R180"/>
-<pin name="PROG" x="-12.7" y="17.78" length="short"/>
-<pin name="17/ATVIN" x="12.7" y="-38.1" length="short" rot="R180"/>
-<pin name="AREF" x="-12.7" y="15.24" length="short"/>
-<pin name="VUSB" x="-12.7" y="12.7" length="short"/>
+<text x="-10.16" y="-43.18" size="1.27" layer="95">&gt;NAME</text>
+<pin name="24/A10" x="12.7" y="-30.48" visible="pin" length="short" rot="R180"/>
+<pin name="25/A11" x="12.7" y="-33.02" visible="pin" length="short" rot="R180"/>
+<pin name="26/A12/DAC" x="12.7" y="-35.56" visible="pin" length="short" rot="R180"/>
+<pin name="PROG" x="-12.7" y="17.78" visible="pin" length="short"/>
+<pin name="17/ATVIN" x="12.7" y="-38.1" visible="pin" length="short" rot="R180"/>
+<pin name="AREF" x="-12.7" y="15.24" visible="pin" length="short"/>
+<pin name="VUSB" x="-12.7" y="12.7" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
